@@ -1,0 +1,536 @@
+ ___  ____  __  __                                            
+/ __)(  _ \(  \/  )                                           
+\__ \ )___/ )    (   Statistical Parametric Mapping           
+(___/(__)  (_/\/\_)  SPM24 - https://www.fil.ion.ucl.ac.uk/spm/
+
+
+SPM24: 00.00                                       14:19:34 - 23/11/2024
+========================================================================
+Initialising SPM                        :                   ........done
+
+SPM present working directory:
+	/Users/jethro/Documents/MATLAB
+
+SPM24: spm_cat12 (CAT12.9)                         16:26:18 - 23/11/2024
+========================================================================
+
+   _______  ___  _______    
+  |  ____/ / _ \ \_   _/   
+  | |___  / /_\ \  | |     Computational Anatomy Toolbox
+  |____/ /_/   \_\ |_|     CAT12.9 - https://neuro-jena.github.io
+
+ CAT default file:
+	/Users/jethro/Documents/MATLAB/spm/toolbox/cat12/cat_defaults.m
+
+Your version of CAT12 is up-to-date.
+
+
+------------------------------------------------------------------------
+23-Nov-2024 16:27:07 - Running job #1
+------------------------------------------------------------------------
+23-Nov-2024 16:27:07 - Running 'Slice Timing'
+
+SPM24: spm_slice_timing                            16:27:07 - 23/11/2024
+========================================================================
+Number of slices is...                  :                             40
+Time to Repeat (TR) is...               :                              4
+Parameters are specified as...          :                  slice indices
+Completed                               :          16:27:18 - 23/11/2024
+23-Nov-2024 16:27:18 - Done    'Slice Timing'
+23-Nov-2024 16:27:18 - Done
+
+
+
+------------------------------------------------------------------------
+23-Nov-2024 16:32:17 - Running job #1
+------------------------------------------------------------------------
+23-Nov-2024 16:32:17 - Running 'Realign: Estimate & Reslice'
+
+SPM24: spm_realign                                 16:32:17 - 23/11/2024
+========================================================================
+Warning: You have used 'state' to read the internal state of a uniform random
+number generator that is not currently active, which most likely returns a
+result that is not valid.  This syntax is not recommended.  See Replace
+Discouraged Syntaxes of rand and randn to use RNG to replace the old syntax. 
+> In spm_realign>realign_series (line 209)
+In spm_realign (line 133)
+In spm_run_realign (line 30)
+In cfg_run_cm (line 29)
+In cfg_util>local_runcj (line 1717)
+In cfg_util (line 972)
+In cfg_ui>MenuFileRun_Callback (line 710)
+In gui_mainfcn (line 95)
+In cfg_ui (line 53) 
+Warning: PostScript format 'psc2' will not be supported in a future release. 
+> In inputcheck
+In print (line 41)
+In spm_print (line 98)
+In spm_realign>plot_parameters (line 551)
+In spm_realign (line 165)
+In spm_run_realign (line 30)
+In cfg_run_cm (line 29)
+In cfg_util>local_runcj (line 1717)
+In cfg_util (line 972)
+In cfg_ui>MenuFileRun_Callback (line 710)
+In gui_mainfcn (line 95)
+In cfg_ui (line 53) 
+Printing 'Graphics' figure to:
+  /Users/jethro/Documents/MATLAB/spm_2024Nov23.ps
+Completed                               :          16:32:34 - 23/11/2024
+
+SPM24: spm_reslice                                 16:32:34 - 23/11/2024
+========================================================================
+Completed                               :          16:32:36 - 23/11/2024
+23-Nov-2024 16:32:36 - Done    'Realign: Estimate & Reslice'
+23-Nov-2024 16:32:36 - Done
+
+
+
+------------------------------------------------------------------------
+23-Nov-2024 18:55:28 - Running job #1
+------------------------------------------------------------------------
+23-Nov-2024 18:55:28 - Running 'Coregister: Estimate'
+
+SPM24: spm_coreg                                   18:55:28 - 23/11/2024
+========================================================================
+Warning: PostScript format 'psc2' will not be supported in a future release. 
+> In inputcheck
+In print (line 41)
+In spm_print (line 98)
+In spm_coreg>display_results (line 386)
+In spm_coreg (line 155)
+In spm_run_coreg (line 21)
+In cfg_run_cm (line 29)
+In cfg_util>local_runcj (line 1717)
+In cfg_util (line 972)
+In cfg_ui>MenuFileRun_Callback (line 710)
+In gui_mainfcn (line 95)
+In cfg_ui (line 53) 
+Printing 'Graphics' figure to:
+  /Users/jethro/Documents/MATLAB/spm_2024Nov23.ps
+Completed                               :          18:55:45 - 23/11/2024
+23-Nov-2024 18:55:45 - Done    'Coregister: Estimate'
+23-Nov-2024 18:55:45 - Running 'Coregister: Estimate'
+
+SPM24: spm_coreg                                   18:55:45 - 23/11/2024
+========================================================================
+Warning: PostScript format 'psc2' will not be supported in a future release. 
+> In inputcheck
+In print (line 41)
+In spm_print (line 98)
+In spm_coreg>display_results (line 386)
+In spm_coreg (line 155)
+In spm_run_coreg (line 21)
+In cfg_run_cm (line 29)
+In cfg_util>local_runcj (line 1717)
+In cfg_util (line 972)
+In cfg_ui>MenuFileRun_Callback (line 710)
+In gui_mainfcn (line 95)
+In cfg_ui (line 53) 
+Printing 'Graphics' figure to:
+  /Users/jethro/Documents/MATLAB/spm_2024Nov23.ps
+Completed                               :          18:56:02 - 23/11/2024
+23-Nov-2024 18:56:02 - Done    'Coregister: Estimate'
+23-Nov-2024 18:56:02 - Done
+
+
+
+------------------------------------------------------------------------
+23-Nov-2024 19:19:14 - Running job #1
+------------------------------------------------------------------------
+23-Nov-2024 19:19:15 - Running 'Segment'
+
+SPM24: spm_preproc_run                             19:19:15 - 23/11/2024
+========================================================================
+Segment /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-02/anat/sub-02_T1w.nii,1
+Completed                               :          19:20:14 - 23/11/2024
+23-Nov-2024 19:20:14 - Done    'Segment'
+23-Nov-2024 19:20:14 - Running 'Segment'
+
+SPM24: spm_preproc_run                             19:20:14 - 23/11/2024
+========================================================================
+Segment /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-03/anat/sub-03_T1w.nii,1
+Completed                               :          19:21:11 - 23/11/2024
+23-Nov-2024 19:21:11 - Done    'Segment'
+23-Nov-2024 19:21:11 - Done
+
+
+
+------------------------------------------------------------------------
+23-Nov-2024 19:29:16 - Running job #1
+------------------------------------------------------------------------
+23-Nov-2024 19:29:16 - Running 'Normalise: Estimate & Write'
+
+SPM24: spm_preproc_run                             19:29:16 - 23/11/2024
+========================================================================
+Segment /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-02/anat/sub-02_T1w.nii,1
+Completed                               :          19:30:04 - 23/11/2024
+23-Nov-2024 19:30:10 - Done    'Normalise: Estimate & Write'
+23-Nov-2024 19:30:10 - Running 'Normalise: Estimate & Write'
+
+SPM24: spm_preproc_run                             19:30:10 - 23/11/2024
+========================================================================
+Segment /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-03/anat/sub-03_T1w.nii,1
+Completed                               :          19:30:58 - 23/11/2024
+23-Nov-2024 19:30:59 - Done    'Normalise: Estimate & Write'
+23-Nov-2024 19:30:59 - Done
+
+
+
+------------------------------------------------------------------------
+23-Nov-2024 21:10:49 - Running job #1
+------------------------------------------------------------------------
+23-Nov-2024 21:10:49 - Running 'Smooth'
+23-Nov-2024 21:10:50 - Done    'Smooth'
+23-Nov-2024 21:10:50 - Running 'Smooth'
+23-Nov-2024 21:10:50 - Done    'Smooth'
+23-Nov-2024 21:10:50 - Done
+
+
+
+------------------------------------------------------------------------
+23-Nov-2024 22:16:49 - Running job #1
+------------------------------------------------------------------------
+23-Nov-2024 22:16:49 - Running 'Smooth'
+23-Nov-2024 22:16:50 - Done    'Smooth'
+23-Nov-2024 22:16:50 - Running 'Smooth'
+23-Nov-2024 22:16:50 - Done    'Smooth'
+23-Nov-2024 22:16:50 - Done
+
+
+SPM24: spm_results_ui                              22:17:24 - 23/11/2024
+========================================================================
+
+
+------------------------------------------------------------------------
+23-Nov-2024 22:32:00 - Running job #2
+------------------------------------------------------------------------
+23-Nov-2024 22:32:00 - Running 'Image Calculator'
+ImCalc Image: /Users/jethro/Documents/MATLAB/output.nii
+23-Nov-2024 22:32:00 - Done    'Image Calculator'
+23-Nov-2024 22:32:00 - Done
+
+
+
+------------------------------------------------------------------------
+23-Nov-2024 22:33:12 - Running job #2
+------------------------------------------------------------------------
+23-Nov-2024 22:33:12 - Running 'Image Calculator'
+ImCalc Image: /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-02/func/output.nii
+23-Nov-2024 22:33:12 - Done    'Image Calculator'
+23-Nov-2024 22:33:12 - Done
+
+
+
+------------------------------------------------------------------------
+23-Nov-2024 22:33:39 - Running job #2
+------------------------------------------------------------------------
+23-Nov-2024 22:33:39 - Running 'Image Calculator'
+ImCalc Image: /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-02/func/4echoMeanoutput.nii
+23-Nov-2024 22:33:39 - Done    'Image Calculator'
+23-Nov-2024 22:33:39 - Done
+
+
+SPM24: spm_image                                   22:34:08 - 23/11/2024
+========================================================================
+Display /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-02/func/4echoMeanoutput.nii,1
+
+
+------------------------------------------------------------------------
+23-Nov-2024 22:47:06 - Running job #3
+------------------------------------------------------------------------
+23-Nov-2024 22:47:06 - Running 'fMRI model specification'
+
+SPM24: spm_fMRI_design                             22:47:06 - 23/11/2024
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM24: spm_fmri_spm_ui                             22:47:06 - 23/11/2024
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          22:47:08 - 23/11/2024
+23-Nov-2024 22:47:08 - Done    'fMRI model specification'
+23-Nov-2024 22:47:08 - Done
+
+
+SPM24: spm_results_ui                              22:49:27 - 23/11/2024
+========================================================================
+
+
+------------------------------------------------------------------------
+23-Nov-2024 22:50:48 - Running job #3
+------------------------------------------------------------------------
+23-Nov-2024 22:50:48 - Running 'Model estimation'
+
+SPM24: spm_spm                                     22:50:48 - 23/11/2024
+========================================================================
+
+SPM24: spm_est_non_sphericity                      22:50:48 - 23/11/2024
+========================================================================
+Chunk   1/1                             :                        ...done
+Temporal non-sphericity (131557 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.530092e-01 [+4.25]
+  ReML Iteration 2                      :        ...5.246541e-05 [+4.50]
+
+SPM24: spm_spm                                     22:50:49 - 23/11/2024
+========================================================================
+Chunk   1/1                             :                        ...done
+Spatial non-sphericity (over scans)     :                        ...done
+Saving SPM.mat                          :                        ...done
+Completed                               :          22:50:50 - 23/11/2024
+Done
+23-Nov-2024 22:50:51 - Done    'Model estimation'
+23-Nov-2024 22:50:51 - Done
+
+
+SPM24: spm_results_ui                              22:51:24 - 23/11/2024
+========================================================================
+Error using spm_conman (line 475)
+Contrast Manager was quit!
+Error in spm_getSPM (line 251)
+    [Ic,xCon] = spm_conman(SPM,'T&F',Inf,...
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in spm_results_ui (line 259)
+        [SPM,xSPM] = spm_getSPM;
+                     ^^^^^^^^^^ 
+Error while evaluating UIControl Callback.
+
+
+
+------------------------------------------------------------------------
+23-Nov-2024 22:54:30 - Running job #4
+------------------------------------------------------------------------
+23-Nov-2024 22:54:30 - Running 'Contrast Manager'
+
+SPM24: spm_contrasts.m                             22:54:30 - 23/11/2024
+========================================================================
+Contrasts folder                        :     ./MultiFractal/sub-02/func
+	contrast image  1               :        ...written con_0001.nii
+	spm{T} image  1                 :       ...written spmT_0001.nii
+	Saving SPM.mat                  :               ...SPM.mat saved
+Completed                               :          22:54:30 - 23/11/2024
+23-Nov-2024 22:54:30 - Done    'Contrast Manager'
+23-Nov-2024 22:54:30 - Done
+
+
+
+------------------------------------------------------------------------
+24-Nov-2024 00:01:28 - Running job #5
+------------------------------------------------------------------------
+24-Nov-2024 00:01:28 - Running 'Model estimation'
+
+SPM24: spm_spm                                     00:01:28 - 24/11/2024
+========================================================================
+Warning: Overwriting existing results
+	 (pwd = /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-02/func)  
+
+SPM24: spm_est_non_sphericity                      00:01:28 - 24/11/2024
+========================================================================
+Chunk   1/1                             :                        ...done
+Temporal non-sphericity (131557 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.530092e-01 [+4.25]
+  ReML Iteration 2                      :        ...5.246541e-05 [+4.50]
+
+SPM24: spm_spm                                     00:01:28 - 24/11/2024
+========================================================================
+Chunk   1/1                             :                        ...done
+Spatial non-sphericity (over scans)     :                        ...done
+Saving SPM.mat                          :                        ...done
+Completed                               :          00:01:29 - 24/11/2024
+Done
+24-Nov-2024 00:01:29 - Done    'Model estimation'
+24-Nov-2024 00:01:29 - Done
+
+
+SPM24: spm_results_ui                              00:01:46 - 24/11/2024
+========================================================================
+Error using spm_conman (line 475)
+Contrast Manager was quit!
+Error in spm_getSPM (line 251)
+    [Ic,xCon] = spm_conman(SPM,'T&F',Inf,...
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in spm_results_ui (line 259)
+        [SPM,xSPM] = spm_getSPM;
+                     ^^^^^^^^^^ 
+Error using getfigurefordesktopclient>fig2client (line 21)
+Error while evaluating UIControl Callback.
+
+
+SPM24: spm_cat12 (CAT12.9)                         00:03:39 - 24/11/2024
+========================================================================
+
+   _______  ___  _______    
+  |  ____/ / _ \ \_   _/   
+  | |___  / /_\ \  | |     Computational Anatomy Toolbox
+  |____/ /_/   \_\ |_|     CAT12.9 - https://neuro-jena.github.io
+
+ CAT default file:
+	/Users/jethro/Documents/MATLAB/spm/toolbox/cat12/cat_defaults.m
+
+Your version of CAT12 is up-to-date.
+Error using spm_conman (line 475)
+Contrast Manager was quit!
+Error in cat_stat_analyze_ROIs (line 45)
+[Ic,xCon] = spm_conman(SPM,'T&F',1,'Select contrast',' ',1);
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in cat12>pushROIAnalysis_Callback (line 237)
+cat_stat_analyze_ROIs;
+^^^^^^^^^^^^^^^^^^^^^
+Error in cat12>gui_mainfcn (line 1089)
+        feval(varargin{:});
+        ^^^^^^^^^^^^^^^^^^
+Error in cat12 (line 118)
+    gui_mainfcn(gui_State, varargin{:});
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in cat12>@(hObject,eventdata)cat12('pushROIAnalysis_Callback',hObject,eventdata,guidata(hObject)) (line 709)
+  'Callback',@(hObject,eventdata)cat12('pushROIAnalysis_Callback',hObject,eventdata,guidata(hObject)),...
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+Error using cfg_getfile>msg (line 1515)
+Error while evaluating UIControl Callback.
+
+Error using matlab.ui.control.UIControl/set
+Invalid or deleted object.
+Error in cfg_getfile>update (line 733)
+    set(lb,'UserData',dr);
+    ^^^^^^^^^^^^^^^^^^^^^
+Error in cfg_getfile>selector (line 620)
+update(wd)
+^^^^^^^^^^
+Error in cfg_getfile (line 193)
+    [t,sts] = selector(varargin{:});
+              ^^^^^^^^^^^^^^^^^^^^^
+Error in spm_select (line 153)
+    [t, sts] = cfg_getfile(varargin{:});
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+Error in cat_stat_analyze_ROIs (line 14)
+  spmmat = spm_select(1,'SPM.mat','Select SPM.mat file to get design');
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in cat12>pushROIAnalysis_Callback (line 237)
+cat_stat_analyze_ROIs;
+^^^^^^^^^^^^^^^^^^^^^
+Error in cat12>gui_mainfcn (line 1089)
+        feval(varargin{:});
+        ^^^^^^^^^^^^^^^^^^
+Error in cat12 (line 118)
+    gui_mainfcn(gui_State, varargin{:});
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in cat12>@(hObject,eventdata)cat12('pushROIAnalysis_Callback',hObject,eventdata,guidata(hObject)) (line 709)
+  'Callback',@(hObject,eventdata)cat12('pushROIAnalysis_Callback',hObject,eventdata,guidata(hObject)),...
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+Error while evaluating UIControl Callback.
+
+
+
+------------------------------------------------------------------------
+24-Nov-2024 00:08:03 - Running job #6
+------------------------------------------------------------------------
+24-Nov-2024 00:08:04 - Running 'Check design orthogonality and homogeneity'
+
+-------------------------------------------
+   Check sample homogeneity
+-------------------------------------------
+
+Use unsmoothed data
+24-Nov-2024 00:08:04 - Failed  'Check design orthogonality and homogeneity'
+Unrecognized field name "I".
+In file "/Users/jethro/Documents/MATLAB/spm/toolbox/cat12/cat_stat_check_SPM.m", function "cat_stat_check_SPM" at line 128.
+
+The following modules did not run:
+Failed: Check design orthogonality and homogeneity
+
+
+SPM24: spm_image                                   00:10:10 - 24/11/2024
+========================================================================
+Display /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-02/func/RPV.nii,1
+ans =
+     []
+
+SPM24: spm_cat12 (CAT12.9)                         00:15:47 - 24/11/2024
+========================================================================
+
+   _______  ___  _______    
+  |  ____/ / _ \ \_   _/   
+  | |___  / /_\ \  | |     Computational Anatomy Toolbox
+  |____/ /_/   \_\ |_|     CAT12.9 - https://neuro-jena.github.io
+
+ CAT default file:
+	/Users/jethro/Documents/MATLAB/spm/toolbox/cat12/cat_defaults.m
+
+Your version of CAT12 is up-to-date.
+
+
+------------------------------------------------------------------------
+24-Nov-2024 00:25:17 - Running job #6
+------------------------------------------------------------------------
+24-Nov-2024 00:25:17 - Running 'CAT12: Segmentation'
+
+Found a CAT12 BIDS directory in the given pathnames and save the log file there:
+/Users/jethro/Documents/Code/GitOak/MultiFractal/derivatives/CAT12.9_2577/log
+
+
+Running job 1:
+  /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-02/anat/sub-02_T1w.nii,1
+
+Check /Users/jethro/Documents/Code/GitOak/MultiFractal/derivatives/CAT12.9_2577/log/catlog_main_20241124_002522_log01.txt for logging information (PID: 68646).
+_______________________________________________________________
+
+Running job 2:
+  /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-03/anat/sub-03_T1w.nii,1
+
+Check /Users/jethro/Documents/Code/GitOak/MultiFractal/derivatives/CAT12.9_2577/log/catlog_main_20241124_002522_log02.txt for logging information (PID: 68731).
+_______________________________________________________________
+
+Running job 3:
+  /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-04/anat/sub-04_T1w.nii,1
+
+Check /Users/jethro/Documents/Code/GitOak/MultiFractal/derivatives/CAT12.9_2577/log/catlog_main_20241124_002522_log03.txt for logging information (PID: 68810).
+_______________________________________________________________
+
+Running job 4:
+  /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-05/anat/sub-05_T1w.nii,1
+
+Check /Users/jethro/Documents/Code/GitOak/MultiFractal/derivatives/CAT12.9_2577/log/catlog_main_20241124_002522_log04.txt for logging information (PID: 68885).
+_______________________________________________________________
+
+Running job 5:
+  /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-06/anat/sub-06_T1w.nii,1
+
+Check /Users/jethro/Documents/Code/GitOak/MultiFractal/derivatives/CAT12.9_2577/log/catlog_main_20241124_002522_log05.txt for logging information (PID: 68962).
+_______________________________________________________________
+
+Started 5 jobs with the following PIDs:
+  1) 1 subjects (PID:  68646): /Users/jethro/Documents/Code/GitOak/MultiFractal/derivatives/CAT12.9_2577/log/catlog_main_20241124_002522_log01.txt
+  2) 1 subjects (PID:  68731): /Users/jethro/Documents/Code/GitOak/MultiFractal/derivatives/CAT12.9_2577/log/catlog_main_20241124_002522_log02.txt
+  3) 1 subjects (PID:  68810): /Users/jethro/Documents/Code/GitOak/MultiFractal/derivatives/CAT12.9_2577/log/catlog_main_20241124_002522_log03.txt
+  4) 1 subjects (PID:  68885): /Users/jethro/Documents/Code/GitOak/MultiFractal/derivatives/CAT12.9_2577/log/catlog_main_20241124_002522_log04.txt
+  5) 1 subjects (PID:  68962): /Users/jethro/Documents/Code/GitOak/MultiFractal/derivatives/CAT12.9_2577/log/catlog_main_20241124_002522_log05.txt
+
+Killing of this process will not kill the parallel processes! 
+_______________________________________________________________
+Completed volumes (see catlog files for details!):
+  1/5 (job 4: 1/1): ..es/CAT12.9_2577/sub-05/anat/catlog_sub-05_T1w.txt:    27.48 minutes, IQR=86.55%.  
+  2/5 (job 3: 1/1): ..es/CAT12.9_2577/sub-04/anat/catlog_sub-04_T1w.txt:    30.06 minutes, IQR=86.58%.  
+  3/5 (job 5: 1/1): ..es/CAT12.9_2577/sub-06/anat/catlog_sub-06_T1w.txt:    29.54 minutes, IQR=86.57%.  
+  4/5 (job 1: 1/1): ..es/CAT12.9_2577/sub-02/anat/catlog_sub-02_T1w.txt:    32.07 minutes, IQR=86.56%.  
+  5/5 (job 2: 1/1): ..es/CAT12.9_2577/sub-03/anat/catlog_sub-03_T1w.txt:    32.16 minutes, IQR=86.59%.  
+
+Print CSV-file /Users/jethro/Documents/Code/GitOak/MultiFractal/sub-06/anat/../../derivatives/CAT12.9_2577/sub-06/CATxml_CAT12.9-2577_202411240058.csv
+
+_______________________________________________________________
+Conclusion of 5 cases: 
+  Processed successfully:       5 volume(s)
+_______________________________________________________________
+24-Nov-2024 00:58:40 - Done    'CAT12: Segmentation'
+24-Nov-2024 00:58:40 - Done
+
+>> 
+
+[END REFERENCE 1]
+
+
